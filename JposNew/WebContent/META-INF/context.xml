@@ -1,0 +1,8 @@
+<Context>
+
+<Resource name="jdbc/pos" auth="Container"
+          type="javax.sql.DataSource" driverClassName="org.postgresql.Driver"
+          url="jdbc:postgresql://192.168.37.60:5432/aisdb"
+          username="juser" password="juser" maxTotal="20" maxIdle="10"
+maxWaitMillis="-1"/>
+</Context>
